@@ -1,0 +1,42 @@
+/* Estilos do Header */
+header {
+  display: flex;
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  height: 100vh; 
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #E8E5E0;
+  width: 70px; /* Largura do header */
+  background-color: #0f0f0f;
+  box-sizing: border-box;
+}
+
+header h1 {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(175, 175, 175);
+  transform: rotate(-90deg);
+  margin: 100px 0px 300px 0px;
+  font-size: 20px;
+}
+
+.links-nav button {
+  all: unset;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 70px;
+  text-decoration: none;
+  
+  cursor: pointer;
+  transform: rotate(-90deg);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+}
